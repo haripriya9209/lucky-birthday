@@ -1,0 +1,45 @@
+body {
+  background: mistyrose;
+}
+.App {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.whole-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-field {
+  margin: 5px 20px;
+}
+
+.date-field {
+  padding: 5px;
+}
+
+.number-field {
+  padding: 7px;
+}
+@media only screen and (max-width: 600px) {
+  .whole-container {
+    flex-direction: column;
+  }
+}
+
+button {
+  margin-top: 20px;
+  border: none;
+  background: rgb(107, 107, 238);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.normal-text {
+  color: black;
+}
+
+.error-text {
+  color: red;
+}
